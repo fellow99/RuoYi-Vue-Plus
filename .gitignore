@@ -35,6 +35,9 @@ nbbuild/
 nbdist/
 .nb-gradle/
 
+### SpecKit ###
+.specify
+
 ######################################################################
 # Others
 *.log
@@ -47,3 +50,7 @@ nbdist/
 !*/build/*.xml
 
 .flattened-pom.xml
+
+######################################################################
+# Test Tmp Folder
+tests/

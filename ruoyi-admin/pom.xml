@@ -104,6 +104,14 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Spring Boot DevTools 热部署 (开发环境) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+
         <!-- skywalking 整合 logback -->
 <!--        <dependency>-->
 <!--            <groupId>org.apache.skywalking</groupId>-->
@@ -125,6 +133,10 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
+                <configuration>
+                    <!-- 打包时排除 DevTools，避免生产环境包含热部署功能 -->
+                    <excludeDevtools>true</excludeDevtools>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>

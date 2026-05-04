@@ -1,4 +1,4 @@
-# RuoYi-Vue-Plus 规范文档 (specs-plan-e)
+# RuoYi-Vue-Plus 规范文档 (specs)
 
 > 完整的系统规范文档，涵盖架构设计、功能规格、API 接口、数据模型和技术方案
 
@@ -65,7 +65,7 @@ RuoYi-Vue-Plus 是针对 RuoYi-Vue 进行全方位重写的多租户快速开发
 ### 文档结构
 
 ```
-specs-plan-e/
+specs/
 ├── 核心文档                      # 整体规格和架构文档
 │   ├── README.md                # 本文档（文档索引）
 │   ├── SPECS_CHECKLIST.md       # 完成情况清单

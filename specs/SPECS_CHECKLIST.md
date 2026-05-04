@@ -1,7 +1,7 @@
 # RuoYi-Vue-Plus 规范文档检查清单
 
 **工程：** RuoYi-Vue-Plus
-**文档目录：** specs-plan-e
+**文档目录：** specs
 **开始时间：** 2026-03-13
 **参考工程：** ~/projects/RuoYi-Vue/specs
 

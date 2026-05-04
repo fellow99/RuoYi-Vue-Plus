@@ -84,7 +84,7 @@ RuoYi-Vue-Plus/
 │   ├── leave/                      # 请假示例
 │   └── sql/                        # SQL 脚本
 │
-├── specs-plan-e/                   # 规范文档目录 (本目录)
+├── specs/                   # 规范文档目录 (本目录)
 │
 ├── pom.xml                         # Maven 父工程配置
 ├── README.md                       # 项目说明
@@ -250,10 +250,10 @@ script/sql/
 
 ---
 
-## 七、规范文档目录结构 (specs-plan-e)
+## 七、规范文档目录结构 (specs)
 
 ```
-specs-plan-e/
+specs/
 ├── SPECS_CHECKLIST.md        # 检查清单
 ├── STRUCTURE.md              # 本文件 (项目结构)
 ├── README.md                 # 文档索引 (待创建)

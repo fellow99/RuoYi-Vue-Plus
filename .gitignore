@@ -53,3 +53,9 @@ nbdist/
 
 application-local.yml
 application-ga.yml
+
+logs/
+.claude/
+.omo/
+.opencode/
+.codegraph/
